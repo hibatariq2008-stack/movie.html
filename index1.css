@@ -1,0 +1,16 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1920"); 
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: fixed;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+} 

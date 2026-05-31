@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cinema scenario.</title>
+    <link rel="stylesheet" href="index1.css"/>
+</head>
+<body>
+<h1>Enjoy Your Movie.</h1> 
+
+    <script>
+        var age = +prompt("Entre your age.");
+ if(age < 12 || age > 65){
+     alert("your ticket and entry is totally free.");
+ }
+ else {
+    if(age >=12 && age <=65){
+         alert("your age is b/w 12 and 65 so you have to pay 1000 rupees for entrance");
+    }
+      var ticketprice = 1000;
+   var studentcard = prompt("Do you have student card yes or no.");
+  if(studentcard === "yes"){
+    ticketprice = 500;
+ alert("you have student card so you get discount of 500 rupees.");
+ }
+ else if(studentcard === "no"){
+     alert("you have no student card so you do not get discount of 500 rupees  but you still watch the movie by paying according to your age.");
+  }
+
+  var money = +prompt("How much money do you have.");
+  if (money >= ticketprice) {
+         alert("Ticket Booked! Enjoy your movie.");
+    } 
+   else {
+        alert("Not enough money!");
+    }
+ }
+    </script>
+</body>
+</html>
